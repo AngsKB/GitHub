@@ -1,0 +1,9 @@
+h1.mainHeader {
+	color: red;
+	font-size: 100px;
+	font-family: Georgia,sans-serif;
+}
+p.bodyRed {
+	color: red;
+	font-family: sans-serif;
+}

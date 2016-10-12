@@ -1,0 +1,53 @@
+<!Doctype html>
+<head>
+	<title> The Everyday Scientist </title>
+	<link href="/normalize.css" rel="stylesheet">
+	<style> 
+	header {
+	text-align: center;
+	color: purple;
+}
+a {color: purple}
+h1{font-size: 70px}
+	ul {
+		padding: 10px
+	li {
+		display: inline;
+		padding: 0px: 0px: 0px: 0px;
+}
+	</style>
+</head>
+<body>
+<header>
+<img src="IMG_0827.jpg">
+<h1> The Everyday Scientist </h1>
+<ul> 
+<li><a href="#">Ask Qs</a></li>
+<li><a href="#">View other Qs</a></li>
+<li><a href="#">Random Facts</a></li>
+</ul>
+</header>
+<article>
+  <h2>Why is the Sky Blue?</h2>
+  <p></p>
+  <button>Answer</button>
+  </article>
+  <article>
+  <h2>What happens when you have an allergic reaction?</h2>
+  <p></p>
+  <button>Answer</button>
+  </article>
+  <article>
+  <h2>How is cheese made?</h2>
+  <p></p>
+   <button>Answer</button>
+  </article>
+</body>
+<h2> Discovering the wonders of science </h2>
+<h3> Curiosity </h3>
+<h4> Questioning </h4>
+<h5> Wonder </h5>
+<script>
+  $("button").on("click",function(){alert("clicked!") });
+ </script>
+</body>
